@@ -3,7 +3,7 @@
 <h3>تم تخصيص الموقع ليتناسب مع معلوماتي المهنية</h2>
 <div dir="rtl">
 رابط الموقع:
-<a href="https://ammar4web.github.io/">دورة تطوير واجهات المستخدم</a><br>
+<a href="https://ammar4web.github.io/">Ammar4web</a><br>
 رابط الكورس:
 <a href="https://academy.hsoub.com/learn/front-end-web-development/">دورة تطوير واجهات المستخدم</a>
 </div>
