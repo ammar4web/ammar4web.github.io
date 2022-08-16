@@ -1,3 +1,7 @@
+:root {
+  --main-color: #03A9F4;
+}
+
 @import url("https://fonts.googleapis.com/css?family=El+Messiri");
 body {
   font-family: "El Messiri", sans-serif;
@@ -25,7 +29,7 @@ main > section {
   justify-content: center;
   align-content: center;
   align-items: center;
-  border-bottom: 3px solid #32a0c2;
+  border-bottom: 3px solid #03A9F4;
   padding: 0px 120px;
 }
 
@@ -83,7 +87,7 @@ li a {
 
 #header .highlight,
 #header .current a {
-  color: #32a0c2;
+  color: #03A9F4;
 }
 
 /* showcase & newsletter */
@@ -179,6 +183,7 @@ li a {
   justify-content: center;
   align-content: center;
   align-items: center;
+  background-color: #dddddd;
 }
 
 @media (max-width: 575px) {
@@ -194,9 +199,11 @@ li a {
   padding: 50px 20px 34px 20px !important;
   width: 100%;
 }
+
 #boxes .box:nth-child(2) {
   margin-left: 10px;
 }
+
 #boxes .box:nth-child(3) {
   margin-right: 10px;
 }
@@ -211,10 +218,14 @@ li a {
   }
 }
 
+#boxes .box p {
+  line-height: 2;
+}
+
 #footer {
   padding: 20px;
   margin-top: 20px;
   color: #ffffff;
-  background-color: #32a0c2;
+  background-color: rgb(21, 26, 45);
   text-align: center;
 }
