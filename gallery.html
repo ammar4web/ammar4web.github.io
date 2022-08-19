@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="موقع شخصي لـ اسم الطالب">
     <meta name="author" content="اسم الطالب">
     <title>الموقع الشخصي</title>
@@ -13,10 +15,28 @@
 
 <body>
     <main>
-        <section id="header">
-            <div id="branding"  style="flex-grow: 8">
-                <h1><a href="index.html"><i class="fas fa-user-circle"></i> صفحة <sapn class="highlight">اسم الطالب</sapn></a> </h1>                    
-            </div>
+      <section id="header">
+        <div id="branding">
+          <img src="img/Ammar.png" alt="Mohammed Ammar Ammar, Ammar4web" height="125px">
+        </div>
+        <div class="links">
+          <h1>
+            <a href="index.html">
+              صفحة <sapn class="highlight">محمد عمار عمار</sapn>
+            </a>
+          </h1>
+          <nav>
+            <ul>
+              <li><a href="index.html">الرئيسية</a></li>
+              <li class="current"><a href="gallery.html">معرض الأعمال</a></li>
+              <li><a href="https://ammar4web.github.io/myWebsite/" target="_blank">موقعي القديم</a></li>
+              <!-- <li><a href="https://ammar4web.github.io/HTML_CSS_Sass/">معرض الأعمال</a></li> -->
+              <li><a href="https://github.com/ammar4web" target="_blank">GitHub</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
             <nav>
                 <ul>
                     <li><a href="index.html">الرئيسية</a></li>
@@ -29,10 +49,10 @@
         <section id="slider">
             <div id="wrapper">
                 <div class="content">                        
-                    <a href="https://ammar4web.github.io/HTML_CSS_Sass/"><img src="img/HTML_CSS_Sass.PNG"></a>
+                    <a href="https://ammar4web.github.io/HTML_CSS_Sass/" target="_blank"><img src="img/HTML_CSS_Sass.PNG"></a>
                 </div>          
                 <div class="content">
-                    <a href="https://ammar4web.github.io/HTML_CSS_JavaScrip/"><img src="img/HTML_CSS_JavaScript.PNG"></a>
+                    <a href="https://ammar4web.github.io/HTML_CSS_JavaScrip/" target="_blank"><img src="img/HTML_CSS_JavaScript.PNG"></a>
                 </div>
             </div>
             <div id="navLinks">
@@ -43,8 +63,8 @@
             </div>
         </section>
 
-        <section id="footer">
-            <p>الصفحة الشخصية لاسم المسجل &copy; <span id="currentYear"></p>
+        <section id="footer" style="margin-top: 50px;">
+          <p>الصفحة الشخصية لمحمد عمار عمار &copy; <span id="currentYear"></p>
         </section>
 
 </main>
