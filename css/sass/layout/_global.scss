@@ -1,0 +1,57 @@
+/* Start Global Rules */
+@import url("https://fonts.googleapis.com/css?family=El+Messiri");
+
+:root {
+  --main-color: #03a9f4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "El Messiri", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+  direction: rtl;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+
+  > section {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+}
+
+// .container {
+//   padding-left: 15px;
+//   padding-right: 15px;
+//   margin-left: auto;
+//   margin-right: auto;
+
+//   > .row {
+//     display: flex;
+//   }
+
+//   @media (min-width: 768px) {
+//     /* Small */
+//     width: 750px;
+//   }
+
+//   @media (min-width: 992px) {
+//     /* Medium */
+//     width: 970px;
+//   }
+
+//   @media (min-width: 1200px) {
+//     /* Large */
+//     width: 1170px;
+//   }
+// }
+
+/* End Global Rules */
