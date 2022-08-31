@@ -98,6 +98,13 @@ main > section {
   border: 5px black solid;
   overflow: hidden;
 }
+@media (max-width: 767px) {
+  #slider {
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+  }
+}
 
 #wrapper {
   width: 400%;
