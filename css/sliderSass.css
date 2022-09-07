@@ -90,67 +90,39 @@ main > section {
 }
 
 /* End Header */
-#slider {
-  position: relative;
-  margin: auto;
-  margin-top: 20px;
-  height: 500px;
-  border: 5px black solid;
-  overflow: hidden;
+.carousel img {
+  height: 100%;
+  width: auto;
 }
-@media (max-width: 767px) {
-  #slider {
-    height: -webkit-fit-content !important;
-    height: -moz-fit-content !important;
-    height: fit-content !important;
+@media (max-width: 575px) {
+  .carousel img {
+    height: 100%;
+    width: auto;
   }
 }
 
-#wrapper {
-  width: 400%;
-  height: 100%;
-  transition: transform 0.5s ease-in-out;
+.carousel-inner .carousel-item {
+  height: calc(100vh - 148px);
 }
-#wrapper .content {
-  float: right;
-  width: 25%;
-  height: 100%;
-}
-#wrapper .content img {
-  width: 100%;
+@media (max-width: 575px) {
+  .carousel-inner .carousel-item {
+    height: calc(100vh - 249.59px);
+  }
 }
 
-#navLinks {
-  text-align: center;
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
   top: 0;
-  right: 45%;
+  z-index: 1;
 }
-#navLinks ul {
-  margin: 0px;
-  padding: 0px;
-  display: inline-block;
-  margin-top: 6px;
-}
-#navLinks ul li {
-  float: right;
-  text-align: center;
-  margin: 10px;
-  padding: 5px;
-  cursor: pointer;
-  background-color: #ccc;
-  list-style: none;
-  border: black 5px solid;
-  border-radius: 50%;
-}
-#navLinks ul li:hover {
-  background-color: #ff0;
-}
-#navLinks ul li.active {
-  background-color: #333;
-}
-#navLinks ul li.active:hover {
-  background-color: #484848;
+
+.carousel-caption {
+  z-index: 2;
+  color: #fff;
 }
 
 /* Start Footer */
