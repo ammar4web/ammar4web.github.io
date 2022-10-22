@@ -337,7 +337,7 @@ main > section {
 .cv-main-content .ex a {
   display: flex;
   justify-content: flex-start;
-  text-align: right;
+  text-align: right !important;
   color: var(--main-color);
   text-decoration: none;
 }
