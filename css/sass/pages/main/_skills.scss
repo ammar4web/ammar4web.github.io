@@ -3,11 +3,22 @@
   padding-bottom: 50px;
   background-color: #eee;
   
+  h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--main-color);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #fff;
+  }
+
   .skill-box {
     background-color: #fff;
     display: flex;
     padding: 15px;
     margin-bottom: 15px;
+    align-items: center;
 
     @media (max-width: 767px) {
       display: block;

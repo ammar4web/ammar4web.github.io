@@ -1,15 +1,6 @@
 /* Start boxes*/
 #boxes {
   background-color: #eee;
-  h2 {
-    font-weight: bold;
-    font-size: 30px;
-    color: var(--main-color);
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: #fff;
-  }
   .container {
     display: flex;
     flex-flow: row wrap;

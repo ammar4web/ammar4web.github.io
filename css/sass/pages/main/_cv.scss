@@ -169,8 +169,8 @@
     // margin-bottom: 75px;
     a {
       display: flex;
-      justify-content: center;
-      text-align: center;
+      justify-content: flex-start;
+      text-align: right;
       color: var(--main-color);
       text-decoration: none;
     }
