@@ -169,7 +169,7 @@
     // margin-bottom: 75px;
     a {
       display: flex;
-      justify-content: flex-start;
+      justify-content: flex-start !important;
       text-align: right !important;
       color: var(--main-color);
       text-decoration: none;
