@@ -149,6 +149,18 @@ main > section {
     text-align: center;
   }
 }
+.about-me .a-my-skile {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px 0px;
+  background-color: #151a2d;
+  color: white;
+  border-radius: 5px;
+}
+.about-me strong {
+  color: #03a9f4;
+  font-size: larger;
+}
 .about-me .info-box {
   flex: 1;
   padding: 30px;
@@ -339,6 +351,10 @@ main > section {
   justify-content: flex-start !important;
   text-align: right !important;
   color: var(--main-color);
+  text-decoration: none;
+}
+
+a {
   text-decoration: none;
 }
 

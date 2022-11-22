@@ -11,6 +11,20 @@
     text-align: center;
   }
 
+  .a-my-skile {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px 0px;
+    background-color: #151a2d;
+    color: white;
+    border-radius: 5px;
+  }
+
+  strong {
+    color: #03a9f4;
+    font-size: larger;
+  }
+
   .info-box {
     flex: 1;
     padding: 30px;
